@@ -42,7 +42,9 @@
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "rustc --version",
-
+	"features": {
+		"terraform": "1.1"
+	},
 	// Comment out to run as root instead.
 	"remoteUser": "vscode"
 }
