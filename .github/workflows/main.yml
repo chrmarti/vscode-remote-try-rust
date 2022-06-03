@@ -27,7 +27,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Run build in dev container
-        uses: stuartleeks/devcontainer-build-run@main
+        uses: stuartleeks/devcontainer-build-run@v0.2
         with:
           # NOTE - Change the image name below to match your fork
           imageName: ghcr.io/chrmarti/vscode-remote-try-rust-devcontainer
